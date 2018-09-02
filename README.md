@@ -20,7 +20,7 @@ npm install
 
 ## Running locally via NPM
 
-Inside the my-app folder:
+Inside the react-boilerplate folder:
 ```
 npm start
 ```
