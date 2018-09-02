@@ -11,7 +11,7 @@ const autoprefixer = require('autoprefixer');
 const env = process.env.NODE_ENV || 'local';
 
 gulp.task("default", ["style"], () => {
-	if(env == "local") gulp.watch("stylesheets/**/*", ["style"]);
+	// if(env == "local") gulp.watch("stylesheets/**/*", ["style"]);
 });
 
 gulp.task("style", () => {

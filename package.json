@@ -4,7 +4,7 @@
   "description": "My react boilerplate",
   "main": "app.js",
   "scripts": {
-    "start": "webpack & gulp & gzip -c ./public/build/bundle.min.js >> ./public/build/bundle.min.js.gz && babel-node app.js",
+    "start": "webpack && gulp && gzip -c ./public/build/bundle.min.js >> ./public/build/bundle.min.js.gz && babel-node app.js",
     "dev": "nodemon app.js --exec \"eslint src/ --fix && eslint server/ --fix && babel-node\"",
     "gulp": "gulp",
     "webpack": "webpack",

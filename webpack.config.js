@@ -28,7 +28,7 @@ module.exports = {
 		}]
 	},
 	plugins,
-	watch: env == 'local',
+	watch: false,
 	node: {
 		fs: 'empty'
 	}
